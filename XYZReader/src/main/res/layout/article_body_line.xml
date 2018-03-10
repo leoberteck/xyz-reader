@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textViewLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppTheme.Body.Medium"
+        android:textColor="?colorControlDark"
+        android:textColorLink="@color/theme_accent"
+        android:textSize="@dimen/detail_body_text_size"
+        android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"/>
+</FrameLayout>

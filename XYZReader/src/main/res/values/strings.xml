@@ -8,5 +8,7 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
+    <string name="close">Close</string>
+    <string name="error_no_connection">There is no connection to the internet</string>
 
 </resources>
