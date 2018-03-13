@@ -92,6 +92,9 @@
         android:src="@drawable/ic_share"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:elevation="6dp"/>
+        android:elevation="6dp"
+        app:layout_anchor="@id/article_body"
+        app:layout_anchorGravity="end|bottom"
+        app:layout_behavior="com.example.xyzreader.behavior.HideOnScrollBehavior"/>
 </android.support.design.widget.CoordinatorLayout>
 

@@ -1,6 +1,7 @@
 package com.example.xyzreader.adapter;
 
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,7 +66,7 @@ public class ArticleBodyAdapter extends RecyclerView.Adapter<ArticleBodyAdapter.
         }
 
         void bind(String line){
-            lineTextView.setText(line);
+            lineTextView.setText(Html.fromHtml(line));
         }
     }
 }

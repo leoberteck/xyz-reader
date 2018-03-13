@@ -22,9 +22,9 @@
     </declare-styleable>
 
     <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
-        <item name="colorPrimary">@color/theme_primary</item>
-        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
-        <item name="colorAccent">@color/theme_accent</item>
+        <item name="colorPrimary">@color/deepOrange500</item>
+        <item name="colorPrimaryDark">@color/deepOrange700</item>
+        <item name="colorAccent">@color/tealA200</item>
         <item name="colorControlDark">@color/text_theme_dark</item>
         <item name="toolbarStyle">@style/AppTheme.ToolbarStyle</item>
     </style>

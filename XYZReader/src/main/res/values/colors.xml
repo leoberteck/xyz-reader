@@ -17,9 +17,9 @@
 
 <resources>
     <color name="photo_placeholder">#ccc</color>
-    <color name="theme_primary">#FF6200</color>
-    <color name="theme_primary_dark">#FF3E03</color>
-    <color name="theme_accent">#00FFBB</color>
+    <color name="deepOrange500">#FF5722</color>
+    <color name="deepOrange700">#E64A19</color>
+    <color name="tealA200">#64FFDA</color>
     <color name="lite_gray">#ffe0e0e0</color>
     <color name="text_theme_dark">#1d1d1d</color>
     <color name="transparent">#00000000</color>
